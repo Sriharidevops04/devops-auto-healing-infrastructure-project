@@ -6,7 +6,14 @@ This project demonstrates how to build a simple yet powerful load balancing syst
 
 Architecutre:
 
-
+Client (Browser / curl)
+        ↓
+     Nginx (Port 80)
+        ↓
+-------------------------
+|        |              |
+Server1  Server2    (More...)
+:8001     :8002
 
 Technologies Used:
 Python (Flask)
