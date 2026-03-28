@@ -20,3 +20,10 @@ Python (Flask)
 Nginx
 Linux (Ubuntu)
 Networking Concepts
+
+Features:
+Reverse proxy setup using Nginx
+Load balancing using upstream servers
+Multiple backend servers
+Round-robin request distribution
+Real-world debugging scenarios
